@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+header {
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+
+main {
+    display: block;
+    padding: 80px;
+}
+
+header nav img {
+    width: 24px;
+}
+
+header nav a {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+i {
+    font-size: 25px;
+}
+
+header nav .search input {
+    border: none;
+    background-color: transparent;
+    width: 55vw;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+
+#inicio {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.search {
+    border-radius: 50px;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card:hover > .box,
+.card:hover > .btn,
+.card:hover > .btns{
+    display: flex;
+}
+
+.card {
+    position: relative;;
+    width: 236px;
+    height: 100%;
+}
+
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    cursor: zoom-in;
+}
+
+.btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 1;
+    background-color: red;
+    color: white;
+    width: 91px;
+    height: 48px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.btn span {
+    font-size: 16px;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn:hover {
+    background-color: rgb(160, 0, 0);
+}
+
+.btns {
+    position: absolute;
+    display: none;
+    bottom: 15px;
+    right: 15px;
+}
+
+.btns .rowBtn i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.btns .rowBtn i:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.help {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px 3px #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.help i {
+    font-size: 40px;
+}
