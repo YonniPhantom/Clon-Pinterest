@@ -20,6 +20,14 @@ main {
     padding: 80px;
 }
 
+.botones {
+    display: flex;
+}
+
+.botonMenu {
+    display: none;
+}
+
 header nav img {
     width: 24px;
 }
@@ -47,6 +55,10 @@ nav {
     align-items: center;
     text-align: center;
     height: 80px;
+}
+
+.lupa {
+    display: none;
 }
 
 #inicio {
@@ -163,4 +175,45 @@ nav {
 
 .help i {
     font-size: 40px;
+}
+
+@media screen and (max-width: 780px) {
+    .botones {
+        display: none;
+    }
+
+    .botonMenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+        height: 49px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .botonMenu a {
+        margin: 0;
+
+    }
+
+    .botonMenu:hover {
+        background-color: #e2e2e2;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header nav a {
+        justify-content: baseline;
+    }
+    
+    .search {
+        display: none;
+    }
+
+    .lupa {
+        display: flex;
+    }
+
 }

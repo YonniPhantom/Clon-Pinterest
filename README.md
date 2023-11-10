@@ -12,7 +12,8 @@ Proyecto final del Modulo 1: _Kata Intro a la Web_ donde se elaboró un clon de 
 - Uso de etiquetas semánticas como <nav> <header> para mejor estructuración de contenido de la página web.
 - Uso de CSS Flexbox para elaborar la cuadrícula de imágenes y el uso de wrap para un diseño responsivo.
 - Uso de las propiedades CSS _position_ y _display_ para el diseño de contenedores.
-
+- Uso de medidas porcentuales para un diseño responsivo
+- Uso de media query
 
 
 ## Despliegue
@@ -26,7 +27,7 @@ o bien, descargar el archivo .zip y después abrir _index.html_
 
 ## Captura de Pantalla
 
-![App Screenshot](https://i.imgur.com/4Uvyb6b.png)
+![App Screenshot](https://i.imgur.com/OIiCEFT.png)
 
 
 ## Demo
