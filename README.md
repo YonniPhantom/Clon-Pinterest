@@ -1,5 +1,5 @@
 
-# Proyecto Final Módulo 1: Clon de Pinterest
+# Clon de Pinterest
 
 Proyecto final del Modulo 1: _Kata Intro a la Web_ donde se elaboró un clon de la red social Pinterest usando los temas vistos en clase, haciendo uso de HTML y CSS con Flexbox.
 
