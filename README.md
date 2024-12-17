@@ -44,4 +44,4 @@ Si tiene algún comentario, puede ponerse en contacto a través del correo elect
 
 - [@yonniphantom](https://github.com/YonniPhantom)
 
-_Academia [DEV.F](https://new.devf.la/)_
+_Academia [DEV.F](https://devf.la/)_
